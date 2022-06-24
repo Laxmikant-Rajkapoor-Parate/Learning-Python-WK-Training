@@ -1,6 +1,14 @@
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def isPresent(inputstr):
+    present = False
+    for num in inputstr:
+        if num % 2 == 0:
+            present = True
+            break
+    return present
 
-for num in nums:
-    if num % 2 == 0:
+if __name__ == '__main__':
+    inputstr = list(map(int, input('Enter numbers:\n').split()))
+    if isPresent(inputstr):
         print('Even numbers present!')
-        break
+    else:
+        print('Even numbers not present')

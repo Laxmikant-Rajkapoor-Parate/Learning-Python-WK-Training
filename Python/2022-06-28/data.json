@@ -1,0 +1,40 @@
+{
+  "patient_list": [
+    {
+      "patient_id": 1,
+      "firstname": "Pranjan",
+      "lastname": "Bhoyar",
+      "gender": "male",
+      "age": 21,
+      "address": {
+        "number": "34/D",
+        "street": "Mayor Colony",
+        "pincode": 440009
+      }
+    },
+    {
+      "patient_id": 2,
+      "firstname": "Sita",
+      "lastname": "Pikalmunde",
+      "gender": "male",
+      "age": 14,
+      "address": {
+        "number": "34/D",
+        "street": "Lajpat Society",
+        "pincode": 203024
+      }
+    },
+    {
+      "patient_id": 3,
+      "firstname": "Kaustubh",
+      "lastname": "Shastrakar",
+      "gender": "male",
+      "age": 25,
+      "address": {
+        "number": "114/A",
+        "street": "Parker-Sunrise Colony",
+        "pincode": 366002
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import json
 
 def load_patient_data():
-    with open(r'Python\2022-06-28\data.json', 'r') as json_file_handler:
+    with open(r'Python\data\data.json', 'r') as json_file_handler:
         data = json.load(json_file_handler)
     return data
 
@@ -11,7 +11,7 @@ def update_data(id, name, patient_data):
             patient['firstname'] = name
     
 def save_data(patient_data):
-    with open(r'Python\2022-06-28\data.json', 'w') as json_file_handler:
+    with open(r'Python\data\data.json', 'w') as json_file_handler:
         json.dump(patient_data, json_file_handler, indent=2)
 
 if __name__ == '__main__':
